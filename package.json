@@ -1,0 +1,28 @@
+{
+    "name": "@sub2r/sub2r-module-js-lib",
+    "version": "0.1.0",
+    "description": "Javascript lib to help integration and working with Sub2r modules network",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "publish": "npm publish --access=public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/knavels/sub2r-module-js-lib.git"
+    },
+    "keywords": [
+        "sub2r",
+        "nodejs",
+        "module",
+        "sub2r",
+        "mesh",
+        "network"
+    ],
+    "author": "Navid Dezashibi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/knavels/sub2r-module-js-lib/issues"
+    },
+    "homepage": "https://github.com/knavels/sub2r-module-js-lib#readme"
+}
