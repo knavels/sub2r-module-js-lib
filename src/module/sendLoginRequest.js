@@ -15,7 +15,7 @@ module.exports = async () => {
         );
     }
 
-    if (!username || !password) {
+    if (!getUsername() || !getPassword()) {
         print(
             "username or password does not exists in configurations, if you accidentally remove or set it to null try to setting it again or simply run config:reset command",
             "error"
@@ -26,7 +26,7 @@ module.exports = async () => {
     let response = null;
     await axiosInstance
         .post(
-            base_url,
+            getBaseUrl(),
             apiReqMaker(
                 "session",
                 "login",

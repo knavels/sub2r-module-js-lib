@@ -23,7 +23,7 @@ module.exports = async (command, success) => {
     }
 
     await axiosInstance
-        .post(base_url, apiReqMaker("sub2r", command, {}))
+        .post(getBaseUrl(), apiReqMaker("sub2r", command, {}))
         .then((data) => {
             resolveOutput(
                 data,

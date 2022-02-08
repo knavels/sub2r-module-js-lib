@@ -1,6 +1,6 @@
 {
     "name": "@sub2r/sub2r-module-js-lib",
-    "version": "0.1.3",
+    "version": "0.1.5",
     "description": "Javascript lib to help integration and working with Sub2r modules network",
     "main": "src/index.js",
     "scripts": {
