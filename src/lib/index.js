@@ -12,6 +12,12 @@ const error_code_description_map = {
     10: "CONNECTION_FAILED",
 };
 
+const renderJSONResult = (success, message, isConsole) => {
+    const result = { success, message };
+    if (isConsole) console.log(JSON.stringify(result));
+    return result;
+};
+
 /**
  *
  * @param {any} text
